@@ -1,5 +1,5 @@
 <?php
-require_once("../db_mahjong.php");
+require_once("./db_mahjong.php");
 if (!isset($_POST["coupon_id"])) {
   $data = [
     "status" => "0",

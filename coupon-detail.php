@@ -2,7 +2,7 @@
 // 檢查 coupon_id 是否存在，若不存在則設置為 1
 $coupon_id = isset($_GET["coupon_id"]) ? $_GET["coupon_id"] : 1;
 
-require_once("../db_mahjong.php");
+require_once("./db_mahjong.php");
 
 // 查詢優惠劵資料
 $sql = "SELECT * FROM coupons WHERE coupon_id = $coupon_id";

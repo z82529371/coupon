@@ -1,5 +1,5 @@
 <?php
-require_once("../db_mahjong.php");
+require_once("./db_mahjong.php");
 session_start();
 
 $couponId = intval($_GET['coupon_id']); // 防止 SQL 注入
